@@ -1,0 +1,13 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:savanna",
+    "minecraft:plains",
+    "minecraft:desert",
+    "minecraft:badlands"
+  ],
+  "entity_type": "minecraft:donkey",
+  "weight": 6,
+  "min_count": 1,
+  "max_count": 3
+}
