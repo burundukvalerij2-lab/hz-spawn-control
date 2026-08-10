@@ -11,26 +11,70 @@ import net.minecraftforge.common.world.BiomeModifier;
 import net.minecraftforge.common.world.ModifiableBiomeInfo;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public record ReplaceSpawnBiomeModifier(HolderSet<Biome> biomes, EntityType<?> entityType,
-                                        int weight, int minCount, int maxCount) implements BiomeModifier {
-    public static final Codec<ReplaceSpawnBiomeModifier> CODEC = RecordCodecBuilder.create(i -> i.group(
-            Biome.LIST_CODEC.fieldOf("biomes").forGetter(ReplaceSpawnBiomeModifier::biomes),
-            ForgeRegistries.ENTITY_TYPES.getCodec().fieldOf("entity_type").forGetter(ReplaceSpawnBiomeModifier::entityType),
-            Codec.intRange(1, 10000).fieldOf("weight").forGetter(ReplaceSpawnBiomeModifier::weight),
-            Codec.intRange(1, 64).fieldOf("min_count").forGetter(ReplaceSpawnBiomeModifier::minCount),
-            Codec.intRange(1, 64).fieldOf("max_count").forGetter(ReplaceSpawnBiomeModifier::maxCount)
-    ).apply(i, ReplaceSpawnBiomeModifier::new));
+/**
+ * Атомарно заменяет записи одного EntityType.
+ *
+ * В Forge 1.20.1 фазы называются ADD и REMOVE, а не ADDITIONS/REMOVALS.
+ * Операция выполняется в REMOVE: старые записи удаляются, после чего в
+ * разрешённый биом добавляется ровно одна итоговая запись.
+ */
+public record ReplaceSpawnBiomeModifier(
+        HolderSet<Biome> biomes,
+        EntityType<?> entityType,
+        int weight,
+        int minCount,
+        int maxCount
+) implements BiomeModifier {
+
+    public static final Codec<ReplaceSpawnBiomeModifier> CODEC = RecordCodecBuilder.create(instance ->
+            instance.group(
+                    Biome.LIST_CODEC
+                            .fieldOf("biomes")
+                            .forGetter(ReplaceSpawnBiomeModifier::biomes),
+                    ForgeRegistries.ENTITY_TYPES.getCodec()
+                            .fieldOf("entity_type")
+                            .forGetter(ReplaceSpawnBiomeModifier::entityType),
+                    Codec.intRange(1, 10000)
+                            .fieldOf("weight")
+                            .forGetter(ReplaceSpawnBiomeModifier::weight),
+                    Codec.intRange(1, 64)
+                            .fieldOf("min_count")
+                            .forGetter(ReplaceSpawnBiomeModifier::minCount),
+                    Codec.intRange(1, 64)
+                            .fieldOf("max_count")
+                            .forGetter(ReplaceSpawnBiomeModifier::maxCount)
+            ).apply(instance, ReplaceSpawnBiomeModifier::new)
+    );
 
     @Override
-    public void modify(Holder<Biome> biome, Phase phase, ModifiableBiomeInfo.BiomeInfo.Builder builder) {
-        // Выполняем замену атомарно в последней стандартной фазе: сначала удаляем все старые
-        // записи этого EntityType, затем добавляем ровно одну запись в разрешённом биоме.
-        if (phase != Phase.REMOVALS) return;
+    public void modify(
+            Holder<Biome> biome,
+            Phase phase,
+            ModifiableBiomeInfo.BiomeInfo.Builder builder
+    ) {
+        // Правильное имя фазы в Forge 47.x — REMOVE.
+        if (phase != Phase.REMOVE) {
+            return;
+        }
+
         var category = entityType.getCategory();
-        var spawns = builder.getMobSpawnSettings();
-        spawns.getSpawner(category).removeIf(data -> data.type == entityType);
+        var spawnBuilder = builder.getMobSpawnSettings();
+
+        // Удаляем все исходные и ранее добавленные записи этого вида.
+        spawnBuilder.getSpawner(category)
+                .removeIf(spawnerData -> spawnerData.type == entityType);
+
+        // Возвращаем одну итоговую запись только в разрешённые биомы.
         if (biomes.contains(biome)) {
-            spawns.addSpawn(category, new MobSpawnSettings.SpawnerData(entityType, weight, minCount, maxCount));
+            spawnBuilder.addSpawn(
+                    category,
+                    new MobSpawnSettings.SpawnerData(
+                            entityType,
+                            weight,
+                            minCount,
+                            maxCount
+                    )
+            );
         }
     }
 
