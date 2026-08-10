@@ -1,0 +1,11 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:taiga",
+    "minecraft:flower_forest"
+  ],
+  "entity_type": "epichunt:highland_cow",
+  "weight": 6,
+  "min_count": 1,
+  "max_count": 3
+}

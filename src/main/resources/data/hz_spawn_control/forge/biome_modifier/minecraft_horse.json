@@ -1,0 +1,11 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:savanna",
+    "minecraft:plains"
+  ],
+  "entity_type": "minecraft:horse",
+  "weight": 8,
+  "min_count": 2,
+  "max_count": 4
+}

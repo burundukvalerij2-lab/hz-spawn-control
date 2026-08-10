@@ -1,0 +1,15 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:flower_forest",
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:sunflower_plains"
+  ],
+  "entity_type": "epichunt:goose",
+  "weight": 5,
+  "min_count": 1,
+  "max_count": 3
+}

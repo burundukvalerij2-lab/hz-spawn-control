@@ -1,0 +1,12 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:sunflower_plains",
+    "minecraft:forest",
+    "minecraft:meadow"
+  ],
+  "entity_type": "epichunt:doe",
+  "weight": 7,
+  "min_count": 1,
+  "max_count": 3
+}

@@ -1,0 +1,14 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:desert",
+    "minecraft:badlands",
+    "minecraft:savanna",
+    "minecraft:plains",
+    "minecraft:meadow"
+  ],
+  "entity_type": "epichunt:goat",
+  "weight": 7,
+  "min_count": 1,
+  "max_count": 3
+}

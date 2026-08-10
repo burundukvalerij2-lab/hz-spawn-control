@@ -1,0 +1,12 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:swamp",
+    "minecraft:flower_forest",
+    "minecraft:sunflower_plains"
+  ],
+  "entity_type": "epichunt:duck",
+  "weight": 6,
+  "min_count": 1,
+  "max_count": 3
+}

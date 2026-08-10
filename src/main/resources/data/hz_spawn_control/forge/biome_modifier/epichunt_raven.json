@@ -1,0 +1,15 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:forest",
+    "minecraft:dark_forest",
+    "minecraft:flower_forest",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:meadow"
+  ],
+  "entity_type": "epichunt:raven",
+  "weight": 2,
+  "min_count": 1,
+  "max_count": 2
+}

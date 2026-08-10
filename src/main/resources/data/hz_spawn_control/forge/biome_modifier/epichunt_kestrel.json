@@ -1,0 +1,15 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:savanna",
+    "minecraft:meadow",
+    "minecraft:sunflower_plains",
+    "minecraft:plains",
+    "minecraft:stony_peaks",
+    "minecraft:windswept_gravelly_hills"
+  ],
+  "entity_type": "epichunt:kestrel",
+  "weight": 1,
+  "min_count": 1,
+  "max_count": 1
+}

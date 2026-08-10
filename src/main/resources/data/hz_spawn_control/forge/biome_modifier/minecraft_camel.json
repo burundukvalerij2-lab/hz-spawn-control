@@ -1,0 +1,11 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:desert",
+    "minecraft:badlands"
+  ],
+  "entity_type": "minecraft:camel",
+  "weight": 4,
+  "min_count": 1,
+  "max_count": 2
+}
