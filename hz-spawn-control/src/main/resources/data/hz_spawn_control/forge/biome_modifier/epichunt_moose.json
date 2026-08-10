@@ -1,0 +1,13 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:snowy_taiga"
+  ],
+  "entity_type": "epichunt:moose",
+  "weight": 4,
+  "min_count": 1,
+  "max_count": 2
+}

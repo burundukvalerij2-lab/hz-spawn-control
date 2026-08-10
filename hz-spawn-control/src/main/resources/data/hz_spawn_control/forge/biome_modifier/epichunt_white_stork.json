@@ -1,0 +1,11 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:swamp",
+    "minecraft:sunflower_plains"
+  ],
+  "entity_type": "epichunt:white_stork",
+  "weight": 2,
+  "min_count": 1,
+  "max_count": 1
+}

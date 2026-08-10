@@ -1,0 +1,11 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:stony_peaks",
+    "minecraft:savanna"
+  ],
+  "entity_type": "minecraft:llama",
+  "weight": 6,
+  "min_count": 2,
+  "max_count": 4
+}

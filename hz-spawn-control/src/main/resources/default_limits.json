@@ -1,0 +1,458 @@
+{
+  "minecraft:cow": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:sheep": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:pig": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:chicken": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:horse": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:donkey": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:camel": {
+    "localLimit": 4,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:goat": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:llama": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:rabbit": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:goat": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:yak": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:highland_cow": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:partridge": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:nightingale": {
+    "localLimit": 4,
+    "chance": 0.55,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:pigeon": {
+    "localLimit": 4,
+    "chance": 0.5,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:quail": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:pheasant": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:goose": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:bullfinch": {
+    "localLimit": 4,
+    "chance": 0.5,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:owl": {
+    "localLimit": 2,
+    "chance": 0.22,
+    "horizontalRadius": 128,
+    "verticalRadius": 64
+  },
+  "epichunt:eagle": {
+    "localLimit": 1,
+    "chance": 0.08,
+    "horizontalRadius": 160,
+    "verticalRadius": 80
+  },
+  "epichunt:hawk": {
+    "localLimit": 1,
+    "chance": 0.1,
+    "horizontalRadius": 144,
+    "verticalRadius": 72
+  },
+  "epichunt:raven": {
+    "localLimit": 4,
+    "chance": 0.45,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:loon": {
+    "localLimit": 4,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:kestrel": {
+    "localLimit": 1,
+    "chance": 0.12,
+    "horizontalRadius": 144,
+    "verticalRadius": 72
+  },
+  "epichunt:common_crane": {
+    "localLimit": 2,
+    "chance": 0.35,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:white_stork": {
+    "localLimit": 2,
+    "chance": 0.35,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:razorbill": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:great_auk": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:beaver": {
+    "localLimit": 4,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:lynx": {
+    "localLimit": 2,
+    "chance": 0.2,
+    "horizontalRadius": 128,
+    "verticalRadius": 64
+  },
+  "epichunt:badger": {
+    "localLimit": 4,
+    "chance": 0.55,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:bear": {
+    "localLimit": 2,
+    "chance": 0.15,
+    "horizontalRadius": 144,
+    "verticalRadius": 72
+  },
+  "epichunt:boar": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:wolf": {
+    "localLimit": 3,
+    "chance": 0.45,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:wisent": {
+    "localLimit": 4,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:duck": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:drake": {
+    "localLimit": 4,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:moose": {
+    "localLimit": 4,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:caribou": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:deer": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:doe": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:roe_deer": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:turtle": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:polar_bear": {
+    "localLimit": 2,
+    "chance": 0.3,
+    "horizontalRadius": 128,
+    "verticalRadius": 64
+  },
+  "minecraft:ocelot": {
+    "localLimit": 2,
+    "chance": 0.18,
+    "horizontalRadius": 128,
+    "verticalRadius": 64
+  },
+  "minecraft:parrot": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:wolf": {
+    "localLimit": 5,
+    "chance": 0.65,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:fox": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:armadillo": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:narwhal": {
+    "localLimit": 2,
+    "chance": 0.12,
+    "horizontalRadius": 160,
+    "verticalRadius": 80
+  },
+  "epichunt:whale": {
+    "localLimit": 1,
+    "chance": 0.08,
+    "horizontalRadius": 192,
+    "verticalRadius": 96
+  },
+  "epichunt:orca": {
+    "localLimit": 1,
+    "chance": 0.08,
+    "horizontalRadius": 192,
+    "verticalRadius": 96
+  },
+  "epichunt:swordfish": {
+    "localLimit": 3,
+    "chance": 0.35,
+    "horizontalRadius": 128,
+    "verticalRadius": 64
+  },
+  "epichunt:white_shark": {
+    "localLimit": 1,
+    "chance": 0.1,
+    "horizontalRadius": 160,
+    "verticalRadius": 80
+  },
+  "minecraft:dolphin": {
+    "localLimit": 5,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:eel": {
+    "localLimit": 8,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:halibut": {
+    "localLimit": 12,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:herring": {
+    "localLimit": 12,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:mackerel": {
+    "localLimit": 12,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:pollock": {
+    "localLimit": 12,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:sardine": {
+    "localLimit": 12,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:bass": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:carp": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:catfish": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:perches": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:pikefish": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:roach": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:sturgeon": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:trout": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "epichunt:zander": {
+    "localLimit": 10,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:tropical_fish": {
+    "localLimit": 16,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:pufferfish": {
+    "localLimit": 6,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:squid": {
+    "localLimit": 8,
+    "chance": 1.0,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  },
+  "minecraft:glow_squid": {
+    "localLimit": 5,
+    "chance": 0.5,
+    "horizontalRadius": 96,
+    "verticalRadius": 48
+  }
+}

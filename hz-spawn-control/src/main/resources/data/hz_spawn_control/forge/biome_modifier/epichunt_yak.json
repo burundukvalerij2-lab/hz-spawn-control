@@ -1,0 +1,10 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:windswept_gravelly_hills"
+  ],
+  "entity_type": "epichunt:yak",
+  "weight": 6,
+  "min_count": 1,
+  "max_count": 3
+}

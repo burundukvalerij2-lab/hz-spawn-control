@@ -1,0 +1,14 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:forest",
+    "minecraft:plains",
+    "minecraft:savanna",
+    "minecraft:sunflower_plains",
+    "minecraft:windswept_gravelly_hills"
+  ],
+  "entity_type": "epichunt:roe_deer",
+  "weight": 7,
+  "min_count": 1,
+  "max_count": 3
+}

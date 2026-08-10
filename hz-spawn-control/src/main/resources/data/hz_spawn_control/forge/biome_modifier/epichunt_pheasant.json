@@ -1,0 +1,12 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:meadow"
+  ],
+  "entity_type": "epichunt:pheasant",
+  "weight": 6,
+  "min_count": 1,
+  "max_count": 2
+}
