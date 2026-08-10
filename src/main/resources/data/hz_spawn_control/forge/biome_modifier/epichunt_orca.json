@@ -1,0 +1,13 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:deep_ocean",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:deep_cold_ocean",
+    "minecraft:deep_frozen_ocean"
+  ],
+  "entity_type": "epichunt:orca",
+  "weight": 1,
+  "min_count": 1,
+  "max_count": 1
+}

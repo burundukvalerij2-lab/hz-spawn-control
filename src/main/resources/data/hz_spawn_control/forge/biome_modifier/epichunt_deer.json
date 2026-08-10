@@ -1,0 +1,14 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:forest",
+    "minecraft:taiga",
+    "minecraft:meadow",
+    "minecraft:flower_forest"
+  ],
+  "entity_type": "epichunt:deer",
+  "weight": 7,
+  "min_count": 1,
+  "max_count": 3
+}

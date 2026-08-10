@@ -1,0 +1,16 @@
+{
+  "type": "hz_spawn_control:replace_spawn",
+  "biomes": [
+    "minecraft:forest",
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:snowy_taiga",
+    "minecraft:dark_forest",
+    "minecraft:badlands"
+  ],
+  "entity_type": "epichunt:wolf",
+  "weight": 2,
+  "min_count": 1,
+  "max_count": 2
+}
